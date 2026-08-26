@@ -1,0 +1,9 @@
+{
+  "$note": "Read at startup by every installed Vtruvian, and re-read every 30 minutes. Editing this file reaches every installation at its next check. Fail-open by design: if this file is unreachable, missing or invalid, nothing is restricted.",
+  "$keys": {
+    "minimum": "Oldest version still allowed to run. Anything older is asked to update. Omit to allow every version.",
+    "capabilities": "Capability name -> false to switch it off. Absent means on.",
+    "message": "Shown to the architect when 'minimum' refuses their build."
+  },
+  "capabilities": {}
+}
